@@ -1,0 +1,63 @@
+/* #maintopic {
+    color: blue;
+}
+
+* {
+    text-align: center;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.para {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+.para:nth-of-type(2n+1) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+#yes:checked+label {
+    color: green;
+} */
+
+/* .out {
+    height: 150px;
+    width: 320px;
+    border: 5px dotted black;
+    background-color: grey;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+.boxin {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+li{
+    display: inline-block;
+} */

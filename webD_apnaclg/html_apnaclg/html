@@ -1,0 +1,15 @@
+hyper text markup language (html)
+has elements represented by tags, these tags can be considered as containers
+not a case sensitive language
+//nesting of tags
+1.paragraph tag 
+2.heading tags
+3.ordered and unordered list <ul> and <ol type="a"> (<li> </li>)
+4.anchor elements <a href="">this is an anchor/link</a>
+    can be absolute or relative(within our file system)
+5.image tag <img src="" alt="error couldnt load the image">
+image and file should be in same folder 
+6.br tag
+7.hr tag 
+8. <b>bold</b> <i>italic</i> <u>underline</u>
+9.

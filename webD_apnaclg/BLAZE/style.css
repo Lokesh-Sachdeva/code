@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    background-image: url(Designer.png);
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+button:hover a{
+    color: black;
+}
+.container-md{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    height: 60vh;
+    width: 60vw;
+    border-radius: 15px;
+    margin: auto ;
+    position: relative;
+    top:20vh;
+    box-shadow: 5px 5px 10px grey;
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(17px);
+
+}
+.btn{
+    margin: 30px;
+    padding: 10px;
+    padding: 10px;
+    display: block;
+}
+h1{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 7vh;
+    width: 50%;
+    font-family: "Baskervville SC", serif;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+.dropdown{
+    background-color: rgba(0, 0, 0, 0.61);
+    backdrop-filter: blur(8px);
+    display: inline-block;
+    position: absolute;
+    top: 3vh;
+    left:2vw;
+}
+
+.dropdown-toggle{
+    margin: 0px;
+}
+p{
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+.animation{
+    top: 25vh;
+}
+.form-floating{
+    position: absolute;
+    top: 22vh;
+    left: 21vw;
+    width: 25vw;
+    box-shadow: 5px 5px 10px grey;
+
+}
+.submit{
+    position: absolute;
+    top: 23vh;
+    left: 47vw;
+    margin: 0.1px;
+}
