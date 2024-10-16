@@ -1,5 +1,3 @@
-btech subject programs and web development learning process 
+B.Tech subject programs and web development learning process 
 <br>
-form - lokesh sachdeva 
-<br>
-MAIT 
+form - lokesh sachdeva, MAIT, DELHI
