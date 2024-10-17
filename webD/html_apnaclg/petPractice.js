@@ -37,3 +37,14 @@
 // }else{
 //     console.log(`the largest number is ${num3}`);
 // }
+
+// let arr = [4,6,8,9];
+// let num = prompt("enter number of elements needed:");
+// let out = arr.slice(-num);
+// console.log(`the last ${num} elements are ${out}`);
+// let str = prompt("enter any string value:");
+// if(str.length===0){
+//     console.log("the string is empty");
+// }else{
+//     console.log("the string is NOT empty");
+// }
