@@ -7,7 +7,7 @@ private:
     double width;
 
 public:
-    Rectangle(double l, double w) : length(l), width(w) {}
+    inline Rectangle(double l, double w) : length(l), width(w) {}
 
     friend double calculateArea(const Rectangle& rect) {
         return rect.length * rect.width;
