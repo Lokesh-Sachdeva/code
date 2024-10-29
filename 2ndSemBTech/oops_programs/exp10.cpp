@@ -1,30 +1,45 @@
+//fibonacci using copy constructor 
 #include <iostream>
 using namespace std;
-class fact
-{
-    int n;
+
+class Fibonacci {
+private:
+    int num;
 
 public:
-    fact(int a)
-    {
-        n = a;
-        if (n < 0)
-        {
-            cout << n << " is invalid Number!!" << endl;
-            return;
-        }
+    
+    Fibonacci(int n) : num(n) {}
 
-        int result = 1;
-        for (int i = n; i >= 1; i--)
-        {
-            result *= i;
-        }
+  
+    Fibonacci(const Fibonacci &prev) {
+        num = prev.num;
+    }
 
-        cout << "the factorial of the " << n << " is : " << result << endl;
+    
+    Fibonacci next(Fibonacci &prev) {
+        return Fibonacci(num + prev.num);
+    }
+
+    int getValue() const {
+        return num;
     }
 };
-int main()
-{
-    fact f1(-5);
-    fact f2(5);
+
+int main() {
+    int terms;
+    cout << "Enter the number of terms for Fibonacci series: ";
+    cin >> terms;
+
+    Fibonacci first(0), second(1);
+    cout << "Fibonacci Series: " << first.getValue() << " " << second.getValue() << " ";
+
+    for (int i = 3; i <= terms; ++i) {
+        Fibonacci nextTerm = second.next(first);
+        cout << nextTerm.getValue() << " ";
+        first = second;
+        second = nextTerm;
+    }
+
+    cout << endl;
+    return 0;
 }
